@@ -1,4 +1,4 @@
-# ETL-BOVESPA
+# ETL-Ibovespa
 
 
 Séries historicas Ibovespa
