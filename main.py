@@ -1,4 +1,4 @@
-#etl bovespa
+#etl Ibovespa
 #Importando as bibliotecas
 
 import pandas as pd
@@ -69,7 +69,7 @@ def concat_files(path, name_file, year_date, type_file, final_file):
   #EXECUCAO DO SCRIPT
 
 year_date = ['2018','2019','2020']
-path = f'/Users/larismorais/Documents/ETL BOVESPA/'
+path = f'{CAMINHO}'
 name_file = 'COTAHIST_A'
 type_file = 'TXT'
 final_file = 'all_bovespa.csv'
